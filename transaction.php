@@ -75,4 +75,12 @@ if (isset($responseData->payment_redirect_url) && $responseData->payment_redirec
     echo('<pre>');print_r($responseData);exit;
     echo "ciao";
 }
+if (isset($responseData->redirect_3ds_url) && $responseData->redirect_3ds_url != null) {
+    // redirect to card payment page
+    header('Location: '.$responseData->redirect_3ds_url);
+} else {
+    // print error response
+    echo('<pre>');print_r($responseData);exit;
+    echo "ciao";
+}
 ?>
