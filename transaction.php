@@ -53,7 +53,7 @@ session_start();
             'ccExpiryMonth' => $_POST["ccExpiryMonth"],
             'ccExpiryYear' => $_POST["ccExpiryYear"],
             'cvvNumber' => $_POST["cvvNumber"],
-            'response_url' => "response.php"
+            'response_url' => 'http://localhost/response.php'
         ];
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
@@ -81,6 +81,5 @@ if (isset($responseData->redirect_3ds_url) && $responseData->redirect_3ds_url !=
 } else {
     // print error response
     echo('<pre>');print_r($responseData);exit;
-    echo "ciao";
 }
 ?>
