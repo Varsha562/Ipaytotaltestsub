@@ -85,7 +85,7 @@ session_start();
                     <div class="card">
                         <div class="card-header d-flex align-items-center justify-content-between" style="background-color: #e5d335;">
                       <img src="https://ipaytotal.solutions/newTheme/assets/img/logo.png" alt="" style="width: 150px;">
-                      <label class="badge badge-info" style="font-size: 16px; font-weight: bold; padding: 6px 5px 3px;">USD560</label>
+                      <label class="badge badge-info" style="font-size: 16px; font-weight: bold; padding: 6px 5px 3px;"><?php  echo $_SESSION["amount"] ;echo  $_SESSION["currency"] ?></label>
                         </div>
                         <div class="col-md-12">
                         </div>
