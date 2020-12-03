@@ -220,15 +220,5 @@ session_start();
                 </nav>
             </div>
         </footer>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/jquery/jquery.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/js/popper.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/feather-icons/feather.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/cleave.js/cleave.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/cleave.js/addons/cleave-phone.us.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/lib/select2/js/select2.min.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/js/dashforge.js"></script>
-        <script src="https://ipaytotal.solutions/newTheme/assets/js/dashforge.sampledata.js"></script>
     </body>
 </html>
