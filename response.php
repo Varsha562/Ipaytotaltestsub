@@ -12,8 +12,10 @@
     <link href="https://ipaytotal.solutions/newTheme/assets/lib/select2/css/select2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://ipaytotal.solutions/newTheme/assets/css/dashforge.css">
     <link rel="stylesheet" href="https://ipaytotal.solutions/newTheme/assets/css/dashforge.demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <style type="text/css">
-        footer ul{
+            footer ul{
             margin: 0px;
         }
         footer li{
@@ -384,7 +386,7 @@
                                                     <label>Phone No. <code style="font-weight: 900; font-size: 20px;">*</code></label>
                                                     <div class="input-group">
                                                         <div class="input-group-prepend">
-                                                          <span class="input-group-text"><i class="fa fa-mobile"></i></span>
+                                                          <span class="input-group-text"><i class="fas fa-mobile-alt"></i></span>
                                                         </div>
                                                         <input class="form-control spinner" name="phone_no" type="text" placeholder="Phone No." id="phone_no" value=""  required>
                                                         <code>Note : Enter the phone number in the following format '+Country Code-Phone Number'; e.g."+441234567890"</code>
@@ -396,7 +398,7 @@
                                                     <label>Amount <code style="font-weight: 900; font-size: 20px;">*</code></label>
                                                     <div class="input-group">
                                                         <div class="input-group-prepend">
-                                                          <span class="input-group-text"><i class="fa fa-money-bill-alt"></i></span>
+                                                          <span class="input-group-text"><i class="fas fa-money-bill-alt"></i></span>
                                                         </div>
                                                         <input class="form-control spinner" name="amount" type="text" placeholder="Amount" id="amount" value=""  required>
                                                     </div>
