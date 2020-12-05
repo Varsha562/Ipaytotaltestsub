@@ -53,7 +53,7 @@ session_start();
             'ccExpiryMonth' => $_POST["ccExpiryMonth"],
             'ccExpiryYear' => $_POST["ccExpiryYear"],
             'cvvNumber' => $_POST["cvvNumber"],
-            'response_url' => 'http://localhost/response.php'
+            'response_url' => 'http://ipaytotaltestsub.000webhostapp.com/response.php'
         ];
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
